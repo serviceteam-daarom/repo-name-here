@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & FAQ | Mooiwater</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="scroll-progress"></div>
+  <header>
+    <div class="navbar">
+      <a href="index.html" class="logo">
+        <i data-lucide="droplets"></i>
+        Mooiwater
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="oplossingen.html">Oplossingen</a></li>
+          <li><a href="over-ons.html">Over ons</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn-secondary" href="#contact">Bel me terug</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="secondary-hero">
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Contact</span>
+      </div>
+      <h1>We luisteren, meten en lossen op</h1>
+      <p>Plan een gratis watercheck, stel je vragen of vraag direct een offerte aan. Onze specialisten zitten in Utrecht klaar maar rijden door het hele land.</p>
+    </section>
+
+    <section class="section fade-in-scroll" id="contact">
+      <div class="contact-grid">
+        <div class="contact-details">
+          <h3>Bel, mail of bezoek</h3>
+          <ul>
+            <li><i data-lucide="phone"></i> 085 - 401 32 11 (08:00 - 21:00)</li>
+            <li><i data-lucide="mail"></i> hallo@mooiwater.nl</li>
+            <li><i data-lucide="map-pin"></i> Reactorweg 301, 3542 AD Utrecht</li>
+          </ul>
+          <p><i data-lucide="calendar"></i> Showroom op afspraak · gratis parkeren</p>
+          <div class="trust-badges" style="margin-top: var(--space-md);">
+            <span class="trust-badge"><i data-lucide="shield"></i> 10 jaar garantie</span>
+            <span class="trust-badge"><i data-lucide="award"></i> FD Gazellen</span>
+          </div>
+        </div>
+        <div class="form-card">
+          <h3>Vraag een watercheck aan</h3>
+          <form>
+            <div class="input-wrapper">
+              <input type="text" id="naam" placeholder=" " required>
+              <label for="naam">Naam</label>
+            </div>
+            <div class="input-wrapper">
+              <input type="email" id="email" placeholder=" " required>
+              <label for="email">E-mail</label>
+            </div>
+            <div class="input-wrapper">
+              <input type="tel" id="telefoon" placeholder=" " required>
+              <label for="telefoon">Telefoon</label>
+            </div>
+            <div class="input-wrapper">
+              <input type="text" id="plaats" placeholder=" " required>
+              <label for="plaats">Plaats / regio</label>
+            </div>
+            <div class="input-wrapper">
+              <textarea id="bericht" rows="4" placeholder=" "></textarea>
+              <label for="bericht">Waar kunnen we je mee helpen?</label>
+            </div>
+            <div class="checkbox-wrapper" style="margin-bottom: var(--space-md); display:flex; gap: var(--space-sm); align-items:center;">
+              <input type="checkbox" id="nieuwsbrief">
+              <label for="nieuwsbrief" style="position:static; transform:none; background:none; padding:0;">Hou me op de hoogte van acties en tips</label>
+            </div>
+            <button class="btn-primary" type="submit">Verstuur</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-in-scroll" id="faq" style="background: var(--subtle-grey);">
+      <h2>Veelgestelde vragen</h2>
+      <div class="accordion">
+        <article class="card">
+          <h3>Hoe snel kunnen jullie installeren?</h3>
+          <p>In 90% van de gevallen plannen we binnen twee weken. Spoedplaatsen voor lekkende boilers zijn mogelijk in overleg.</p>
+        </article>
+        <article class="card">
+          <h3>Hoeveel kost onderhoud?</h3>
+          <p>Ons onderhoudsplan start bij €119 per jaar inclusief inspectie, reiniging en updates van de instellingen.</p>
+        </article>
+        <article class="card">
+          <h3>Wat is de waterhardheid in mijn regio?</h3>
+          <p>Tijdens de intake meten we ter plekke. Ter indicatie: Randstad 7-9 dH, oosten 10-12 dH. Alles boven 7 dH profiteert merkbaar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section fade-in-scroll" id="voorwaarden">
+      <h2>Algemene voorwaarden in het kort</h2>
+      <ul class="features">
+        <li><i data-lucide="file-text"></i> Offertes 30 dagen geldig</li>
+        <li><i data-lucide="shield-check"></i> 10 jaar garantie op harskolom</li>
+        <li><i data-lucide="truck"></i> Levering en installatie inbegrepen</li>
+      </ul>
+    </section>
+
+    <section class="section fade-in-scroll" id="privacy" style="background:#fff;">
+      <h2>Privacy</h2>
+      <p>We gebruiken je gegevens uitsluitend voor het beantwoorden van je vraag en delen ze nooit zonder toestemming. In de bevestigingsmail vind je een link naar onze volledige privacyverklaring.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo" style="color:#F5F7FA;">
+          <i data-lucide="droplets"></i>
+          Mooiwater
+        </a>
+        <p>De Nederlandse specialist in waterontharders met karakter. We combineren techniek met service zodat jouw waterervaring klopt van kraan tot keuken.</p>
+        <div class="trust-badges">
+          <span class="trust-badge"><i data-lucide="award"></i> FD Gazellen</span>
+          <span class="trust-badge"><i data-lucide="shield-check"></i> 10 jaar garantie</span>
+        </div>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <ul class="features">
+          <li><a href="oplossingen.html">Oplossingen</a></li>
+          <li><a href="over-ons.html">Over ons</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="features">
+          <li><i data-lucide="phone"></i> 085 - 401 32 11</li>
+          <li><i data-lucide="mail"></i> hallo@mooiwater.nl</li>
+          <li><i data-lucide="map-pin"></i> Reactorweg 301, Utrecht</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Mooiwater. Alle rechten voorbehouden.</p>
+      <div class="secondary-nav">
+        <a href="contact.html#faq">Veelgestelde vragen</a>
+        <a href="contact.html#voorwaarden">Algemene voorwaarden</a>
+        <a href="contact.html#privacy">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="scripts.js" defer></script>
+</body>
+</html>
